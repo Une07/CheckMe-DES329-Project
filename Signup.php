@@ -47,7 +47,7 @@
                 font-family: 'Montserrat', sans-serif;
                 background-color: #1f1f1f;
                 color: white;
-                border: none;
+                border: 2px solid #1f1f1f;
             }
             .button-container {
                 display: flex;

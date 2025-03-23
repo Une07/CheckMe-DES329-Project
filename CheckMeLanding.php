@@ -10,7 +10,7 @@
                 height: 100vh;
                 width: 100vw;
                 background-color: #fff;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Montserrat', bold;
                 margin: 0;
             }
             .container {
@@ -24,10 +24,8 @@
                 transform: translate(-50%, -50%);
             }
             .logo-container {
-                width: 30vw;
-                height: 30vw;
-                max-width: 150px;
-                max-height: 150px;
+                width: 150px;
+                height: 150px;
                 border: 2px solid black;
                 display: flex;
                 align-items: center;
@@ -39,43 +37,56 @@
                 height: 100%;
                 object-fit: contain;
             }
+            .intros{
+                margin-bottom: 20px;
+                align-items: center;
+                justify-content: center;
+            }
             h1 {
-                font-size: 5vw;
+                font-size: 4vw;
+                font-weight: bold;
+                text-align: center;
+            }
+            p{
+                font-size: 1.5vw;
                 font-weight: bold;
                 text-align: center;
             }
             .button-container {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 gap: 10px;
                 margin-top: 20px;
                 width: 80%;
                 max-width: 300px;
             }
             .a {
-                width: 100%;
-                max-width: 350px;
+                width: 350px;
                 padding: 12px;
                 text-align: center;
                 border-radius: 5px;
                 font-size: 4vw;
                 cursor: pointer;
-                text-decoration: none;
                 display: inline-block;
             }
             .login {
+                width: 350px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 background-color: #1f1f1f;
                 color: white;
                 border: none;
+                text-decoration: none;
             }
             .signup {
+                width: 350px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 background-color: white;
                 color: #1f1f1f;
                 border: 2px solid #1f1f1f;
+                text-decoration: none;
             }
         </style>
         <meta charset="UTF-8">
@@ -88,7 +99,12 @@
             <div class="logo-container">
                 <img src="logo.png" alt="CheckMeLogo">
             </div>
-            <h1>CheckMe</h1>
+
+            <div class = "intros">
+                <h1>CheckMe</h1>
+                <p>Where your to-dos inspire the world.</p>
+            </div>
+            
             <div class="button-container">
                 <a href = "Login.php" class="login" >Login</a>
                 <a href = "Signup.php" class="signup">Sign-up</a>

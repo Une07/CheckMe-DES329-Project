@@ -48,7 +48,7 @@
                 text-align: center;
             }
             p{
-                font-size: 1.5vw;
+                font-size: 1.25vw;
                 font-weight: bold;
                 text-align: center;
             }
@@ -71,15 +71,17 @@
                 display: inline-block;
             }
             .login {
+                font-size: 1.25vw;
                 width: 350px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
                 background-color: #1f1f1f;
                 color: white;
-                border: none;
+                border: 2px solid #1f1f1f;
                 text-decoration: none;
             }
             .signup {
+                font-size: 1.25vw;
                 width: 350px;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;

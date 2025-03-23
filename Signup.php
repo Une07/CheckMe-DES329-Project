@@ -41,6 +41,7 @@
                 display: inline-block;
             }
             .signup {
+                font-size: 1.25vw;
                 text-decoration: none;
                 text-align: center;
                 font-family: 'Montserrat', sans-serif;
@@ -64,6 +65,7 @@
                 width: 600px;
             }
             .textarea-custom{
+                font-size: 1.25vw;
                 font-family: 'Montserrat', sans-serif;
                 background-color: white;
                 color: #1f1f1f;
@@ -75,8 +77,8 @@
         <div class = "container">
             <div class = "textfield-container">
                 <input class = "textarea-custom" type = "text" id = "username" placeholder = "Username"></input>
-                <input class = "textarea-custom" type = "text" id = "password" placeholder = "Password"></input>
-                <input class = "textarea-custom" type = "text" id = "confirmpassword" placeholder = "Confirm Password"></input>
+                <input class = "textarea-custom" type = "password" id = "password" placeholder = "Password"></input>
+                <input class = "textarea-custom" type = "password" id = "confirmpassword" placeholder = "Confirm Password"></input>
             </div>
             <div class = "button-container">
                 <a href="Login.php" class = "signup">Signup</a>

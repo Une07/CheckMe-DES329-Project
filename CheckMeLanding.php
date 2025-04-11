@@ -98,13 +98,12 @@
 
     <body>
         <div class = "container">
-            <div class="logo-container">
-                <img src="logo.png" alt="CheckMeLogo">
-            </div>
+
+                <img src="./image/logo.png" alt="CheckMeLogo">
+
 
             <div class = "intros">
-                <h1>CheckMe</h1>
-                <p>Where your to-dos inspire the world.</p>
+                <p>Check out my life Check off my tasks</p>
             </div>
             
             <div class="button-container">
